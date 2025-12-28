@@ -1,4 +1,4 @@
 execution_time_ms,node_type,query,phase
-15.121,Limit,popular_repos,baseline
-9.225,Seq Scan,language_filter,baseline
-7.794,Aggregate,recent_repos,baseline
+9.93,Limit,popular_repos,baseline
+7.869,Seq Scan,language_filter,baseline
+6.434,Aggregate,recent_repos,baseline

@@ -1,4 +1,4 @@
 execution_time_ms,node_type,rows,query,phase
-0.168,Limit,20,popular_repos,indexed
-4.969,Index Only Scan,18268,language_filter,indexed
-10.12,Aggregate,1,recent_repos,indexed
+0.378,Limit,20,popular_repos,indexed
+8.966,Index Only Scan,18268,language_filter,indexed
+17.58,Aggregate,1,recent_repos,indexed

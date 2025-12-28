@@ -25,7 +25,7 @@ QUERIES = {
         EXPLAIN (ANALYZE, BUFFERS, FORMAT JSON)
         SELECT COUNT(*)
         FROM repos
-        WHERE created_at >= '2022-01-01';
+        WHERE created_at BETWEEN '2023-01-01' AND '2023-02-01';
     """
 }
 

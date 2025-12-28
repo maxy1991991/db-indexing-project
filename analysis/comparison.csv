@@ -1,4 +1,4 @@
 execution_time_ms_baseline,node_type_baseline,query,phase_baseline,execution_time_ms_indexed,node_type_indexed,rows,phase_indexed,speedup
-15.121,Limit,popular_repos,baseline,0.564,Limit,20,indexed,26.810283687943265
-9.225,Seq Scan,language_filter,baseline,7.012,Index Only Scan,18268,indexed,1.3156018254420994
-7.794,Aggregate,recent_repos,baseline,15.789,Aggregate,1,indexed,0.4936348090442713
+9.93,Limit,popular_repos,baseline,0.378,Limit,20,indexed,26.26984126984127
+7.869,Seq Scan,language_filter,baseline,8.966,Index Only Scan,18268,indexed,0.8776488958286862
+6.434,Aggregate,recent_repos,baseline,17.58,Aggregate,1,indexed,0.36598407281001144

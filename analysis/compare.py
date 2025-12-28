@@ -1,7 +1,7 @@
 import pandas as pd
 
 base = pd.read_csv("analysis/baseline.csv")
-idx = pd.read_csv("analysis/indexed.csv")
+idx = pd.read_csv("analysis/indexed_no_cluster.csv")
 
 df = base.merge(idx, on="query", suffixes=("_baseline", "_indexed"))
 

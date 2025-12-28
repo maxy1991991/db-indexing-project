@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 baseline = pd.read_csv("analysis/baseline.csv")
-indexed = pd.read_csv("analysis/indexed.csv")
+indexed = pd.read_csv("analysis/indexed_no_cluster.csv")
 clustered = pd.read_csv("analysis/indexed_clustered.csv")
 
 # Map query → index type
