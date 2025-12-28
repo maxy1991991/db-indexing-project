@@ -1,0 +1,4 @@
+execution_time_ms_no_cluster,node_type_no_cluster,rows_no_cluster,query,phase_no_cluster,execution_time_ms_clustered,node_type_clustered,rows_clustered,phase_clustered,speedup_from_clustering
+0.168,Limit,20,popular_repos,indexed,0.172,Limit,20,indexed,0.9767441860465118
+4.969,Index Only Scan,18268,language_filter,indexed,4.464,Index Only Scan,18268,indexed,1.1131272401433692
+10.12,Aggregate,1,recent_repos,indexed,12.695,Aggregate,1,indexed,0.7971642378889325
