@@ -63,6 +63,8 @@ This project evaluates the performance impact of realistic PostgreSQL indexing a
 | Recent repos (date range) | 1.34 | 10.33 | **0.13× (much slower)** |
 
 ---
+![Query performance comparison](analysis/performance.png)
+---
 
 ## Key Findings
 
